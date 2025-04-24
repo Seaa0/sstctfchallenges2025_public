@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Coen"
+category = "rev"
+description = "ADVANCED\n\nLakers in 5.\n"
+difficulty = "insane"
+name = "Needle in a Codestack"
+folder_name = "Needle in a Codestack"
+files = ["dist/NeedleInACodestack.exe"]
+
+[challenge.extras]
+discord = "coneycoen"
+
+[[challenge.flags]]
+flag = "sstctf{you_used_ai_didnt_you}"
+case_insensitive = true

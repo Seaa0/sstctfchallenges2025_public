@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jolene"
+category = "forensics"
+description = "Here's information on the SST Applied Subjects!\n"
+difficulty = "medium"
+name = "An Innocent Spreadsheet"
+folder_name = "An Innocent Spreadsheet"
+files = ["dist/sst applied subjects.xlsx"]
+
+[challenge.extras]
+discord = "jolene_82791"
+
+[[challenge.flags]]
+flag = "sstctf{3xc3l1n3xc3l}"
+case_insensitive = true

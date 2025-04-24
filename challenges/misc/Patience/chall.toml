@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "misc"
+description = "Be patient!\n"
+difficulty = "easy"
+name = "Patience"
+folder_name = "Patience"
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{cong4tulati0n5_y0u_wai+3d_45_m1n_f0r_th3_fl4g}"
+
+[[challenge.services]]
+name = "netcat"
+path = "service/src"
+ports = [3001]
+type = "tcp"

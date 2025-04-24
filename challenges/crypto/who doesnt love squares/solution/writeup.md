@@ -1,0 +1,13 @@
+# Who doesnt love squares
+
+(Explain more about prime factors)
+
+Solve script:
+```py
+from Crypto.Util.number import long_to_bytes
+
+# from https://www.alpertron.com.ar/ECM.HTM, find the squared factors
+longFlag=5*31*2393*5944241*710943127*1953105098218171*446180397258145399*93199471592962881473*222979856684543469279574721450439941*188971361220428318568672600516435823210734377
+
+print(long_to_bytes(longFlag))
+```

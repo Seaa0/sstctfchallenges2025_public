@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "What does this mean?? sstctf{じゃぱねせ_そ_ふん} Note: flag is all small letters\n"
+difficulty = "medium"
+name = "nihongo!!"
+folder_name = "nihongo"
+files = ["dist/chall.txt"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{japanese_so_fun}"
+case_insensitive = true

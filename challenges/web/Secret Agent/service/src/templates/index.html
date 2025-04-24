@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        pre {
+            background: #f9f9f9;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 15px;
+            overflow-x: auto;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agents Data</h1>
+
+    <script>
+        // Fetch the JSON data from the Flask server
+        fetch('/users.json')
+            .then(response => response.json())
+            .then(data => {
+                // Format the JSON data with indentation
+                document.getElementById('users').textContent = JSON.stringify(data, null, 4);
+            })
+            .catch(error => console.error('Error fetching user data:', error));
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+</head>
+<body>
+    <h2>Profile of Agent {{ user['name'] }}</h2>
+    <p><strong>Description:</strong> {{ user['description'] }}</p>
+</body>
+</html>

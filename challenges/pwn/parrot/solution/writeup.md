@@ -1,0 +1,1 @@
+This is a format string attack, you can access memory locations, so keep trying until you get the correct memory location.

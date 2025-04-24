@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "pwn"
+description = "ADVANCED\n\nI made something that repeats what you said! Feel free to test it out!\n"
+difficulty = "hard"
+name = "parrot"
+folder_name = "parrot"
+files = ["dist/server.c"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{I_gu3ss_y0u_forma++3d_th3_flag}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "netcat"
+path = "service/src"
+ports = [2081]
+type = "tcp"

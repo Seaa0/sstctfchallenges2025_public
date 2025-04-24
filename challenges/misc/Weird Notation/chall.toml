@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "misc"
+description = "I found some weird notation here, but I can't understand? All I know is that it's some algorithm...can you find the name of it?\n\nR U R' U' R' F R2 U' R' U' R U R' F'\n\nNote: wrap the flag in sstctf{}, and make it all small letters, with spaces separated by underscores\ne.g. sstctf{foolscap_paper}\n"
+difficulty = "easy"
+name = "Weird Notation"
+folder_name = "Weird Notation"
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{t_perm}"

@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "osint"
+description = "Happy year of the snake!\nFlag format: sstctf{latitude_longitude}\nNote: give the coordinates of the cameraman\nBoth are to 3dp\n"
+difficulty = "medium"
+name = "恭喜发财"
+folder_name = "gong xi fa cai"
+files = ["dist/lanterns.jpeg"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{1.294_103.839}"
+case_insensitive = true

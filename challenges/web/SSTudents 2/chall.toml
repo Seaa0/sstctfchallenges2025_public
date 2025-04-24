@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jolene"
+category = "web"
+description = "I can't login to my account... can you help me?\n"
+difficulty = "medium"
+name = "SSTudents 2"
+folder_name = "SSTudents 2"
+
+[challenge.extras]
+discord = "jolene_82791"
+
+[[challenge.flags]]
+flag = "sstctf{sq1_1nject10n}"
+
+[[challenge.services]]
+name = "hosting"
+path = "service/src"
+ports = [7003]
+type = "web"

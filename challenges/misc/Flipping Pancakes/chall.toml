@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "misc"
+description = "Pancake flipping is my hobby!  \nNote: below is an example of flipping at index 5:  \nbefore flip: [0,1,2,3,4,5,6,7,8]\nafter flip: [5,6,7,8,4,0,1,2,3]\n"
+difficulty = "insane"
+name = "Flipping Pancakes"
+folder_name = "Flipping Pancakes"
+files = ["dist/UI.py"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{fl1pp1ng_l1s+s_al1_d4y_3very_day!}"
+
+[[challenge.services]]
+name = "netcat"
+path = "service/src"
+ports = [3000]
+type = "tcp"

@@ -1,0 +1,1 @@
+flag = 'sstctf{n3gative_index!!}'

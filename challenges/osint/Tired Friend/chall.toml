@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "osint"
+description = "My friend was tired and travelled by train. He was so tired that he even took a detour and took the longer route just to avoid transferring trains.\n\nFlag format:\nsstctf{no. of stops_time taken in min}\n"
+difficulty = "easy"
+name = "Tired Friend"
+folder_name = "Tired Friend"
+files = ["dist/end.jpeg", "dist/start.jpeg"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{15_44}"
+case_insensitive = true

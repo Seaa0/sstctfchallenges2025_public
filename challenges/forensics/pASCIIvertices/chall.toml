@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Coen"
+category = "forensics"
+description = "Haha, get it? pASCII? Like pesky? Hahaha <laughs in bad joke>\n"
+difficulty = "medium"
+name = "pASCIIvertices"
+folder_name = "pASCIIvertices"
+files = ["dist/peskyVertices.obj"]
+
+[challenge.extras]
+discord = "coennnm"
+
+[[challenge.flags]]
+flag = "sstctf{FBX_is_better}"
+case_insensitive = true

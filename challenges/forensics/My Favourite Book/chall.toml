@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "forensics"
+description = "This book is so amazing, it helped me do well for my Computing+ EOYs!\n"
+difficulty = "medium"
+name = "My Favourite Book"
+folder_name = "My Favourite Book"
+files = ["dist/CP+ Chapter 4 Textbook.pdf"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{1_h0p3_y0u_summ4ris3d_th1s_f0r_ur_CP+_E0Y}"
+case_insensitive = true

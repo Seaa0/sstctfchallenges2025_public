@@ -1,0 +1,1 @@
+wait 5 (was changed from 45) min, flag will be printed

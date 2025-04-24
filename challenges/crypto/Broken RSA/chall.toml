@@ -1,0 +1,28 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "Surely using a composite number for e should work...right?\n"
+difficulty = "hard"
+name = "Broken RSA"
+folder_name = "Broken RSA"
+files = ["dist/server.py"]
+requirements = ["who doesn't love squares?"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{b0g_st4nd4rd_rsa_d3crypt1on}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "netcat"
+path = "service/src"
+ports = [1001]
+type = "tcp"

@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Coen"
+category = "rev"
+description = "XOR, short for \"exclusive OR,\" is a logical operator that returns true if and only if the input values differ, meaning either one is true and the other is false, but not both. \n\nIf both inputs are false (0), the output is false (0). \nIf one input is true and the other is false, the output is true (1). \n\nNOTE: if u think ur ans is correct but it says wrong pls open a ticket, cos xor is shoddy sometimes even if u do it right u can get the wrong ans\n"
+difficulty = "medium"
+name = "eXORcist"
+folder_name = "eXORcist"
+files = ["dist/eXORcist.exe"]
+
+[challenge.extras]
+discord = "coneycoen"
+
+[[challenge.flags]]
+flag = "sstctf{im_xorry}"
+case_insensitive = true
+
+[[challenge.flags]]
+flag = "sstctf{im_xrry}"
+case_insensitive = true

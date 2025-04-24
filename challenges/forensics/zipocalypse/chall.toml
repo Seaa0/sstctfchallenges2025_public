@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "forensics"
+description = "We zipped the flag with 30000 layers!\n\nNote: layer number goes from 20000-50000\n"
+difficulty = "insane"
+name = "Zipocalypse"
+folder_name = "zipocalypse"
+files = ["dist/dist.txt"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{m4ss_unz1pp1ng_w1th_c0d3!}"

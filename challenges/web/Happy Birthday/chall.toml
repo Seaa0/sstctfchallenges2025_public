@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jolene"
+category = "web"
+description = "I wonder if I can hack this innocent birthday wisher...\n"
+difficulty = "hard"
+name = "Happy Birthday"
+folder_name = "Happy Birthday"
+
+[challenge.extras]
+discord = "jolene_82791"
+
+[[challenge.flags]]
+flag = "sstctf{sst1_hack3r}"
+
+[[challenge.services]]
+name = "hosting"
+path = "service/src"
+ports = [7000]
+type = "web"

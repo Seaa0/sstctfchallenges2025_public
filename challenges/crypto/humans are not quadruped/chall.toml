@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "quadruped, quad-core cpu, quadratic\n"
+difficulty = "medium"
+name = "Humans are not quadruped"
+folder_name = "humans are not quadruped"
+files = ["dist/quad.py"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{m4th_i5_the_b4s1c_build1ng_bl0ck_0f_mod3rn_cryptogr4phy}"
+case_insensitive = true

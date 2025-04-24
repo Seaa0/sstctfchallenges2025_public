@@ -1,0 +1,19 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "osint"
+description = "My friend really liked watching this flagcatcher101 guy, can you help me find his social media? It's been a few months seen my friend saw a post of his.\n"
+difficulty = "medium"
+name = "A long long time ago"
+folder_name = "A long long time ago"
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{4r3_y0u_a_t1me_tr4vell3r?}"

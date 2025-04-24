@@ -1,0 +1,1 @@
+input "一二三", which is "123" in chinese.

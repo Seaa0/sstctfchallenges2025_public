@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "I have 64 bases, what about you?\n"
+difficulty = "easy"
+name = "Go back to your bases!"
+folder_name = "go back to your bases"
+files = ["dist/chall.txt"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{b4s3_64_h4s_n0_c1ph3r_key}"
+case_insensitive = true

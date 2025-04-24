@@ -1,0 +1,1 @@
+There are decimals in the x-coordinates of the vertices at the end of the file, which, when multiplied by 100, can be converted into ASCII characters.

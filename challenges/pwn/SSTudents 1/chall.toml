@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "pwn"
+description = "ADVANCED\n\nI can't login to my account... can you help me?\\n\n"
+difficulty = "medium"
+name = "SSTudents 1"
+folder_name = "SSTudents 1"
+files = ["dist/server.c"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{1_h0p3_y0u_d1dn't_+ry_t0_brut3_f0rc3_th1s_fl4g_becaus3_i_m4de_it_unnec3s5s4rily_l0ng_43821578927892678325786256738672357698526978768532532486721067842317853217}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "netcat"
+path = "service/src"
+ports = [2082]
+type = "tcp"

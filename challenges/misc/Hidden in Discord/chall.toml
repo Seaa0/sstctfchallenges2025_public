@@ -1,0 +1,20 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "misc"
+description = "I sent the flag somewhere in the Discord server, can't remember where though...\n"
+difficulty = "easy"
+name = "Hidden in Discord"
+folder_name = "Hidden in Discord"
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{d1scord_link5_ar3_n0t_what_th3y_seem_l1k3}"
+case_insensitive = true

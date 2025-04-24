@@ -1,0 +1,25 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jolene"
+category = "web"
+description = "I think there's something hidden in this website?\n"
+difficulty = "easy"
+name = "Look Closely"
+folder_name = "Look Closely"
+
+[challenge.extras]
+discord = "jolene_82791"
+
+[[challenge.flags]]
+flag = "sstctf{d1d_y0u_l00k_c10s31y}"
+
+[[challenge.services]]
+name = "hosting"
+path = "service/src"
+ports = [7001]
+type = "web"

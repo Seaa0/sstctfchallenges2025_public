@@ -1,0 +1,27 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "pwn"
+description = "ADVANCED\n\na+1 is always more than a, there is no exception, meaning you cannot get the flag!\n"
+difficulty = "easy"
+name = "Laws of Mathematics"
+folder_name = "Laws of Mathematics"
+files = ["dist/server.c"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{1nt3ger_overfl0w_br34ks_th3_law5_0f_m4+h}"
+case_insensitive = true
+
+[[challenge.services]]
+name = "netcat"
+path = "service/src"
+ports = [2085]
+type = "tcp"

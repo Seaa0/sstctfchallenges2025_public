@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "ADVANCED\nThe challenge name sounds like an acronym if you ask me.\n"
+difficulty = "medium"
+name = "are airs aye"
+folder_name = "are airs aye"
+files = ["dist/are airs aye.py"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{sm4ll_pr1me3}"
+case_insensitive = true

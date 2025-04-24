@@ -1,0 +1,22 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "Elliptic Curve Digital Signature Algorithm? Nope, Elliptic Curve (Delightful?) Shamir-Adleman. Oops, sorry Rivest, you were probably the SMARTest of the three.\n"
+difficulty = "insane"
+name = "EC(D?)SA"
+folder_name = "ECDSA"
+files = ["dist/chall.py", "dist/output.txt"]
+requirements = ["who doesn't love squares?"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{th3r3_4re_so_m4ny_way5_t0_fact0r_pr1me5_with_ell1ptic_curv3s_i+s_cr4zy}"
+case_insensitive = true

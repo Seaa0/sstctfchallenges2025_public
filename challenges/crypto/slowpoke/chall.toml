@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "ADVANCED\nI wonder how I ran all 7632945675432... iterations in python?\n"
+difficulty = "medium"
+name = "Slowpoke"
+folder_name = "slowpoke"
+files = ["dist/slowpoke.py"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{x0r_is_1ts_0wn_1nv3rse}"
+case_insensitive = true

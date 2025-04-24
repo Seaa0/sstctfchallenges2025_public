@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Kenzie"
+category = "rev"
+description = "Crack me, but only if you can hack me...\n\n"
+difficulty = "medium"
+name = "Crack Me"
+folder_name = "Crack Me"
+files = ["dist/crackme"]
+
+[challenge.extras]
+discord = "iamagoodperson_yay"
+
+[[challenge.flags]]
+flag = "sstctf{x0r_1s_4m4z1ng}"
+case_insensitive = true

@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Kenzie"
+category = "forensics"
+description = "ADVANCED\nI got a weird audio file from my friend, help me decode it!\n"
+difficulty = "hard"
+name = "Beep Boop Beep Boop"
+folder_name = "Beep Boop Beep Boop"
+files = ["dist/beep_boop_beep_boop.mp3"]
+
+[challenge.extras]
+discord = "iamagoodperson_yay"
+
+[[challenge.flags]]
+flag = "sstctf{p1x3L_p3rfec7_w@v3s}"
+case_insensitive = true

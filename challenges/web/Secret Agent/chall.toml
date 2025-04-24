@@ -1,0 +1,26 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jolene"
+category = "web"
+description = "Help us find the mole\n"
+difficulty = "medium"
+name = "Secret Agent"
+folder_name = "Secret Agent"
+files = ["dist/agentinfo.py"]
+
+[challenge.extras]
+discord = "jolene_82791"
+
+[[challenge.flags]]
+flag = "sstctf{y0u_g0t_m3}"
+
+[[challenge.services]]
+name = "hosting"
+path = "service/src"
+ports = [7002]
+type = "web"

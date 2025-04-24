@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jolene"
+category = "forensics"
+description = "Isn't this just an empty pdf..?\n\n"
+difficulty = "insane"
+name = "A Strange PDF"
+folder_name = "A Strange PDF"
+files = ["dist/mydocument.pdf"]
+
+[challenge.extras]
+discord = "jolene_82791"
+
+[[challenge.flags]]
+flag = "sstctf{pdf3xp3r7}"
+case_insensitive = true

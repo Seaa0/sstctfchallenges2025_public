@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Coen"
+category = "rev"
+description = "Temetrius Jamel Morant.\n\nTip: don't try to open the .exe file.\n"
+difficulty = "easy"
+name = "Your First Rev"
+folder_name = "Your First Rev"
+files = ["dist/yourFirstRev.exe"]
+
+[challenge.extras]
+discord = "coneycoen"
+
+[[challenge.flags]]
+flag = "sstctf{34zy_r3v}"
+case_insensitive = true

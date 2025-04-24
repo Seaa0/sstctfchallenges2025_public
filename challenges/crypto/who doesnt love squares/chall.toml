@@ -1,0 +1,21 @@
+# Challenge Metadata File (version 0.1)
+# This file is machine generated. DO NOT EDIT unless you know what you are doing.
+# If you want to create or edit a challenge, use the CLI instead.
+
+version = "0.1"
+
+[challenge]
+author = "Jaron"
+category = "crypto"
+description = "I love squares, what about you?\n"
+difficulty = "hard"
+name = "who doesn't love squares?"
+folder_name = "who doesnt love squares"
+files = ["dist/we love squares.py"]
+
+[challenge.extras]
+discord = "shuizhuimiaoman"
+
+[[challenge.flags]]
+flag = "sstctf{make_sur3_y0ur_pr1m3_f4ctors_ar3_1ndiff3eren+i4bl3}"
+case_insensitive = true

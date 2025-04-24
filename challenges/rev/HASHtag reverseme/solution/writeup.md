@@ -1,0 +1,1 @@
+Character set is extremely small so just brute force
